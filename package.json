@@ -6,6 +6,7 @@
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
+    "ionic:serve": "nuxt dev",
     "ionic:build": "npm run generate"
   },
   "devDependencies": {
@@ -13,7 +14,9 @@
     "nuxt-ionic": "^0.2.2"
   },
   "dependencies": {
+    "@capacitor/android": "3.6.0",
     "@capacitor/app": "1.1.1",
+    "@ionic/cli": "6.20.1",
     "@capacitor/cli": "3.6.0",
     "@capacitor/core": "3.6.0",
     "@capacitor/haptics": "1.1.4",
